@@ -16,11 +16,6 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "paths": {
-    "crypto": [
-      "node_modules/crypto-js"
-    ]
-  },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
