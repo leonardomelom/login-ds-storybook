@@ -19,12 +19,12 @@ jobs:
           node-version: 16
       
       - name: Install dependecies
-      - run: npm ci --legacy-pper-deps
+        run: npm ci --legacy-pper-deps
 
       - name: Build Storybook
-      - run: npm run build-storybook
+        run: npm run build-storybook
 
       - name: Deploy Storybook
-      - run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
+        run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
