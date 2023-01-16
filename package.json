@@ -11,10 +11,14 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@radix-ui/react-checkbox": "^1.0.1",
     "@radix-ui/react-slot": "^1.0.1",
     "clsx": "^1.2.1",
     "phosphor-react": "^1.4.1",
+=======
+    "clsx": "^1.2.1",
+>>>>>>> c88547d27a73cebc86a9a83f2f4b60d971890dfb
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
